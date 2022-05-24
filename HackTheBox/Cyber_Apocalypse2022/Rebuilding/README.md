@@ -53,13 +53,13 @@ In order to find a useable output from the key generator, I took the obfuscation
 }  
 '''  
 Running this code using the hex values that make up "humans" produces an incomprehensible value  
-[Figure 8](fakeflag.png)  
+![Figure 8](fakeflag.png)  
 
 Running it again with the hex for "aliens" returns what is almost certainly the flag  
-[Figure 9](flag.png)  
+![Figure 9](flag.png)  
 
 If we want to be certain about whether or not the flag is correct, we can use it as the input to the program.  
-[Figure 10](proofofcompletion.png)  
+![Figure 10](proofofcompletion.png)  
 
 
 Altogether a fun box with a small twist in where to find the required key.
