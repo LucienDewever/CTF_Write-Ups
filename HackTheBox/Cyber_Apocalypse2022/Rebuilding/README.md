@@ -28,7 +28,7 @@ But inside of one of the constructors is another data set that uses the label "k
 The data in the first two images are denoted in hex and can be converted to ascii to see if they are useful. the data in key can be decoded to "humans" and the data encrypted is not comprehensible. The interesting part of this box comes from the second data set called "key" that is a char array holding the value "aliens". 
 
 In order to find a useable output from the key generator, I took the obfuscation code and placed a variation into my own C program to play around with.  
-'''
+'''  
 #include <stdlib.h>
 
 int main()
@@ -53,8 +53,8 @@ int main()
 
 
     return 0;
-}
-'''
+}  
+'''  
 Running this code using the hex values that make up "humans" produces an incomprehensible value  
 [Figure 8](fakeflag.png)  
 
