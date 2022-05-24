@@ -7,6 +7,7 @@ Doing a little bit of digging on the ELF file with the "File" command in Kali, w
 ![Figure 1](FileRecon.png)
 
 Looking into the second file given to us shows that the different response messages for trying to move around in the program are held in the .ex file
+
 ![Figrue 2](DBlook.png)
 
 Running the program and using db.ex as the required parameter shows you a directory with a couple of options. One of them is apparently encrypted and will therefore be the center of attention
