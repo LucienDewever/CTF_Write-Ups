@@ -22,7 +22,7 @@ Looking around the assembly, we can find both labels clearly denoted
 ![Figure 5](encData.png)  
 ![Figure 6](key.png)  
 
-But inside of one of the constructors is another variable titled "key"  
+But inside of one of the constructors is another data set that uses the label "key"  
 ![Figure 7](realkey.png)  
 
 The data in the first two images are denoted in hex and can be converted to ascii to see if they are useful. the data in key can be decoded to "humans" and the data encrypted is not comprehensible. The interesting part of this box comes from the second data set called "key" that is a char array holding the value "aliens". 
