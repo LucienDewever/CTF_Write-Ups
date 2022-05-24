@@ -1,0 +1,7 @@
+# WIDE (Reverse Engineering, 300p, 1473 solved)
+
+An easy reverse engineering challenge 
+We are given a [64 bit ELF file](wide) and 
+
+Doing a little bit of digging on the ELF file with the "File" command in Kali, we see that it is non-stripped which will be helpful for dissecting it.
+![Figure 1](
