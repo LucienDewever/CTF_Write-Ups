@@ -18,7 +18,7 @@ The function "ll" shows that the data is serialized. In order to see what "ll" a
 ![Figure 6](DecipherClues.png)
 
 Now we can see that the fucnction is using zlib, base64 encoding, and marshalling. We can reverse these processes using zlib.decompress, decode, and marshal.loads. Doing so shows us all of the code objects for the other functions in the program.  
-![Figure 7](ViewCodeObjects Result.png)  
+![Figure 7](ViewCodeObjectsResult.png)  
 
 And then, using the dis module in python to disassemble the result we can see more readable versions of each code object  
 ![Figure 8](UseDisForHumanReadable.png)  
