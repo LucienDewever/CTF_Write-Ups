@@ -6,7 +6,7 @@ We are given a [compiled python file (pyc)](chall.pyc) and tasked with finding t
 Using the "file" command in linux, we are able to see that the pyc file is using Python2.7  
 ![Figure 1](FileRecon.png)
 
-Next, I'd like to see what the program does when run, and to no suprise it loads up a game of snake. The berries change between being a '#' and being letters. I am suspicios that the letters will be the flag, but there is not enough space on the snake gameboard to play until all the letters are revealed  
+Next, I'd like to see what the program does when run, and to no suprise it loads up a game of snake. The berries change between being a '#' and being letters. I am suspicious that the letters will be the flag, but there is not enough space on the snake gameboard to play until all the letters are revealed  
 ![Figure 2](GameBuffer.png)
 ![Figure 3](GameAnswer.png)
 
