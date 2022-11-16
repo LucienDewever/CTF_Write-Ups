@@ -10,7 +10,7 @@ Next, I'd like to see what the program does when run, and to no suprise it loads
 ![Figure 2](GameBuffer.png)
 ![Figure 3](GameAnswer.png)
 
-In order to get an approximation of the orignial python code compiled into the pyc, I can use the tool [Decompyle++](https://gist.github.com/dpogue/1231382) which turns bytecode into human-readable python. Running chall.pyc through Decomplye returns a program wuth a number of variables with unhelpful names and encoding along with a single function at the bottom that calls these variables and their contents to run the game.  
+In order to get an approximation of the orignial python code compiled into the pyc, I can use the tool [Decompyle++](https://gist.github.com/dpogue/1231382) which turns bytecode into human-readable python. Running chall.pyc through Decomplye returns a program with a number of variables with unhelpful names and encoding along with a single function at the bottom that calls these variables and their contents to run the game.  
 ![Figure 4](DecompyleResult.png)  
 ![Figure 5](BytecodeMain.png)  
 
